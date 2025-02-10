@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KodSende</title>
+</head>
+<body>
+    <!--tablo sekıllendırme ogrenıyoruz border ile cizgileri cizdik style ozellestırdık
+    tr ile baslık atayıp colspan ile digerlerininde basına gecırmıs olduk
+    rowspan ile satır içerisindeki kelimelerin birbirine yakın geleceği belirtiyoruz yani birden fazla aynı kelime
+    yada cumle varsa onları bırlestırmeye yarar
+    rowspan ile satır birleştirmeye yarıyor
+    colspan ile sütun birleştirme yapıyoruz yani birden fazla aynı sütun varsa onları bırlestırmeye yarar
+    
+    cellpadding ile tablo ici bosluk vermeye yarıyor
+    cellspacing ile hucre arasında bosluk vermeye yarıyor
+    
+    -->
+    <table border="4" cellpadding="25" cellspacing="20"><!--style="width: 400px; height: 300px; text-align: center;-->
+        <tr>
+            <th colspan="3">Genel Gider Tablosu</th>
+        </tr>
+        <tr>
+            <th>Ürün</th>
+            <th>Gün</th>
+            <th>Stok</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Kek</td>
+            <td>Cumartesi</td>
+            <td>Var</td>
+        </tr>
+        <tr>
+            <td>Pazar</td>
+            <td>Yok</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Baklava</td>
+            <td>Pazartesi</td>
+            <td>Var</td>
+        </tr>
+        <tr>
+            <td>Sali</td>
+            <td>Yok</td>
+        </tr>
+    </table>
+</body>
+</html>

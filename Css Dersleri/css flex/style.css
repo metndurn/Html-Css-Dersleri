@@ -1,0 +1,36 @@
+.container{
+    background-color: bisque;
+    display: flex;
+    height: 400px;
+    /*yatayda hizalama için kullanılır*/
+    /*justify-content: flex-end; /*sondan hizamalamak için yazılır*/
+    /*justify-content: start; /*default olarak ile aynıdır hizalama için*/
+    /*justify-content: center; /*ortalama ile hizalama yapar*/
+    /*justify-content: space-around; /*araları acarak hizalama yapar*/
+    /*justify-content: space-between; /*içerdeki yapıyı koselerde esitleme yapar*/
+
+    /*Dikeyde hizalama için kullanılır
+    align-items: center;
+    align-items: flex-start;
+    align-items: flex-end;
+    */
+    
+    /*elemanları nerden baslanacagı secılırse*/
+    /*flex-direction: row;/*default olarak gelir*/
+    /*flex-direction: row-reverse;/*sondan hizalama gelir*/
+    /*flex-direction: column;/*yukarıdan asagıya dogru sıralama yapar*/
+    /*flex-direction: column-reverse;/*asagıdan yukarı dogru hizalama yapar*/
+    
+    /*satır satır yazdırmak ıstersek*/
+    flex-wrap: nowrap;/*default olarak degerler gelır*/
+    flex-wrap: wrap;/*yapıyı otomatık olarak alt alta sıralar*/
+    flex-wrap: wrap-reverse;/*altan uste dogru sıralama yapar*/
+}
+.container div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+}

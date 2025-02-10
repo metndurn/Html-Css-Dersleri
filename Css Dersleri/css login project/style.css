@@ -1,0 +1,38 @@
+img{
+    margin-top: -45px;
+    width: 100px;
+    height: 100px;
+}
+body{
+    background-color: bisque;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid brown;
+    width: 450px;
+    height: 450px;
+    background-color: rgb(255, 189, 109);
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+}
+h1{
+    color: rgb(154, 25, 25);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+    margin-top: 10px;
+    width: 60%;
+    padding: 10px;
+}
+.submit{
+    background-color: aquamarine;
+    width: 25%;
+    color: black;
+    font-weight: bold;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: antiquewhites;
+}

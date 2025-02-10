@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    color: rgb(255, 0, 179);
+    background-color: bisque;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;/*site baslik ismini ortalamak icin yazdık*/
+}
+.kutu{
+    float: left;/*divleri yan yana getirmeye yarıyor*/
+    width: 33.33%;/*sayfanın yuzde kısmını alıyor*/
+    height: 300px;
+    padding: 50px;
+}
+.kutu.sol{
+    background-color: lightgreen;
+    color: rgb(255, 0, 179);
+}
+.kutu.orta{
+    background-color: aqua;
+    color: rgb(255, 0, 179);
+}
+.kutu.sag{
+    background-color: lightyellow;
+    color: rgb(255, 0, 179);
+}
+.footer{
+    clear: both;
+    background-color: gray;
+    padding: 15px;
+    text-align: center;
+    color: aqua;
+}

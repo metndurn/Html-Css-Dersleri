@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KodSende</title>
+</head>
+<body>
+    <!--fieldset ile formu içine alıyoruz yani dış bir çerçeve oluşturuyor
+    legend ile oluşturulan çerçevenın arasına yazı yazdırdık-->
+    <fieldset style="border: 10px solid blueviolet;">
+        <legend>Lütfen Formu Eksiksiz Doldurunuz</legend>
+    <form action="demo9.html">
+        <h4>Hesap Bilgileri</h4>
+        <p>
+            Kullanici Adi : <input type="text" name="username" placeholder="kullanici adi giriniz" required>
+        </p>
+        <p>
+            Eposta : <input type="email" name="eposta" placeholder="eposta giriniz" required>
+        </p>
+        <p>
+            Parola : <input type="password" name="parola" placeholder="parola giriniz" required>
+        </p>
+
+        <h4>Kisisel Bilgileriniz</h4>
+        <p>
+            Ad : <input type="text" name="Ad">
+        </p>
+        <p>
+            Soyad : <input type="text" name="Soyad">
+        </p>
+        <p>
+            Şehir : <select name="sehir">
+                <option>İstanbul</option>
+                <option>Ankara</option>
+                <option>Diyarbekir</option>
+                <option>Mardin</option>
+                <option>Bingöl</option>
+                <option>Erzurum</option>
+                <option>Kahramanmaraş</option>
+                <option>Yozgat</option>
+                <option>Çorum</option>
+                <option>Sivas</option>
+            </select>
+        </p>
+        <p>
+            Cinsiyet : 
+            <input type="radio" name="cinsiyet"> Erkek
+            <input type="radio" name="cinsiyet"> Kadın
+        </p>
+        <p>
+            Hobileriniz : 
+            <input type="checkbox" name="hobiler"> Sinema
+            <input type="checkbox" name="hobiler"> Kitap Okuma
+            <input type="checkbox" name="hobiler"> Yüzme
+            <input type="checkbox" name="hobiler"> Yürüyüş
+            <input type="checkbox" name="hobiler"> Müzik
+        </p>
+        <p>
+            <input type="submit" value="Kaydet">
+        </p>
+    </form>
+</fieldset>
+</body>
+</html>

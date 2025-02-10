@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Link Verme Ozellikleri</title>
+    <style>
+        a{
+            font-size: 50px;/*fontunu ayarladık*/
+        }
+        a:link{
+            text-decoration: none;/*verilen linkin cizgisiz olmasını sagladık*/
+        }
+        a:visited{
+            color: red;/*tıklama yapıldıgı zaman arka plandaki rengi verdik*/
+        }
+        a:hover{
+            background-color: steelblue;/*tıklama yapılmadan ustune gelındıgı vakit bu renk gelir*/
+        }
+        a:active{
+            background-color: violet;/*linki basılı tuttugumuzda burada ki kod kullanılır*/
+        }
+    </style>
+</head>
+<body>
+    <a href="hakkinda.html" target="_self">Bu Kanal Hakkinda</a><!--target alanına _blank yazıldıgı zaman baska bir sekmede sayfa acar-->
+</body>
+</html>

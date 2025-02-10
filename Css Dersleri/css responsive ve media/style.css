@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.kutu{
+    flex: 25%;
+    padding: 30px;
+}
+.kutu1{
+    background-color: bisque;
+}
+.kutu2{
+    background-color: firebrick;
+}
+.kutu3{
+    background-color: yellowgreen;
+}
+.kutu4{
+    background-color: thistle;
+}
+/*@media ile tablet için ekran kucultme yaptık*/
+@media screen and(max-width: 1000px) {
+    .kutu{
+        flex: 50%;
+    }
+}
+
+/*@media ile mobil ekran için ekran kucultme yaptık*/
+@media screen and(max-width: 400px) {
+    .container{
+        flex-direction: column;
+    }
+}
